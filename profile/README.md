@@ -13,24 +13,24 @@
 </p>
 
 <p align="center">
-  <a href="https://ollaya.cobanov.dev">Website</a> ·
-  <a href="https://ollaya.cobanov.dev/search">Models</a> ·
-  <a href="https://ollaya.cobanov.dev/docs">Docs</a> ·
+  <a href="https://ollaya.dev">Website</a> ·
+  <a href="https://ollaya.dev/search">Models</a> ·
+  <a href="https://ollaya.dev/docs">Docs</a> ·
   <a href="https://github.com/ollaya-dev/ollaya/releases">Releases</a> ·
   <a href="https://huggingface.co/ollaya-dev">Hugging Face</a>
 </p>
 
 ```sh
-curl -fsSL https://ollaya.cobanov.dev/install.sh | sh
+curl -fsSL https://ollaya.dev/install.sh | sh
 ollaya run laya --preset triage "I was charged twice this month and want a refund."
 ```
 
 | Model | Author | |
 |---|---|---|
-| [`laya`](https://ollaya.cobanov.dev/library/laya) | Convai Innovations | The fastest: 8–10 ms for five questions on an RTX 4090. English and 100+ languages. |
-| [`decider`](https://ollaya.cobanov.dev/library/decider) | Mapika | The most accurate: Qwen3.5 decoders, 2B and 0.8B. |
-| [`nli`](https://ollaya.cobanov.dev/library/nli) | Moritz Laurer | Zero-shot NLI classifiers, the most accurate encoder. |
-| [`gliclass`](https://ollaya.cobanov.dev/library/gliclass) | Knowledgator | Instruction-following zero-shot classifier. |
+| [`laya`](https://ollaya.dev/library/laya) | Convai Innovations | The fastest: 8–10 ms for five questions on an RTX 4090. English and 100+ languages. |
+| [`decider`](https://ollaya.dev/library/decider) | Mapika | The most accurate: Qwen3.5 decoders, 2B and 0.8B. |
+| [`nli`](https://ollaya.dev/library/nli) | Moritz Laurer | Zero-shot NLI classifiers, the most accurate encoder. |
+| [`gliclass`](https://ollaya.dev/library/gliclass) | Knowledgator | Instruction-following zero-shot classifier. |
 
 Weights always come from their authors' own Hugging Face repositories, pinned to a commit and
 verified by sha256. Ollaya never re-hosts them.
