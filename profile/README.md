@@ -15,6 +15,7 @@
 <p align="center">
   <a href="https://ollaya.dev">Website</a> ·
   <a href="https://ollaya.dev/search">Models</a> ·
+  <a href="https://ollaya.dev/results">Results</a> ·
   <a href="https://ollaya.dev/docs">Docs</a> ·
   <a href="https://github.com/ollaya-dev/ollaya/releases">Releases</a> ·
   <a href="https://huggingface.co/ollaya-dev">Hugging Face</a>
@@ -22,17 +23,16 @@
 
 ```sh
 curl -fsSL https://ollaya.dev/install.sh | sh
-ollaya run laya --preset triage "I was charged twice this month and want a refund."
+ollaya run winnow:e4b --preset triage "I was charged twice this month and want a refund."
 ```
 
-| Model | Author | |
-|---|---|---|
-| [`laya`](https://ollaya.dev/library/laya) | Convai Innovations | The fastest: 8–10 ms for five questions on an RTX 4090. English and 100+ languages. |
-| [`decider`](https://ollaya.dev/library/decider) | Mapika | The most accurate: Qwen3.5 decoders, 2B and 0.8B. |
-| [`nli`](https://ollaya.dev/library/nli) | Moritz Laurer | Zero-shot NLI classifiers, the most accurate encoder. |
-| [`gliclass`](https://ollaya.dev/library/gliclass) | Knowledgator | Instruction-following zero-shot classifier. |
+15 model families, from millisecond encoders that run on a CPU (`laya`, `nli`, `gliclass`, `von`) to
+decoders that take a GPU (`winnow`, `kev`, `decider`, `nimble`, `jeb`, `jeeves`, `cygnet` and more).
+Their accuracy, calibration and speed on our own GPUs and CPUs, with the raw data, are at
+[ollaya.dev/results](https://ollaya.dev/results).
 
 Weights always come from their authors' own Hugging Face repositories, pinned to a commit and
 verified by sha256. Ollaya never re-hosts them.
 
+Created and maintained by [Mert Cobanov](https://github.com/cobanov) ([@mertcobanov](https://x.com/mertcobanov)).
 Apache-2.0. Ollaya is an independent project, not affiliated with Ollama or TypeSafe.
