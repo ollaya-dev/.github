@@ -26,8 +26,8 @@ curl -fsSL https://ollaya.dev/install.sh | sh
 ollaya run winnow:e4b --preset triage "I was charged twice this month and want a refund."
 ```
 
-18 model families, from millisecond encoders that run on a CPU (`laya`, `nli`, `gliclass`, `von`, `decima`) to
-decoders that take a GPU (`winnow`, `clef`, `kev`, `decider`, `nimble`, `jeb`, `jeeves`, `cygnet`, `snap` and more).
+19 model families, from millisecond encoders that run on a CPU (`laya`, `nli`, `gliclass`, `von`, `decima`) to
+decoders that take a GPU (`winnow`, `clef`, `kev`, `decider`, `nimble`, `jeb`, `jeeves`, `cygnet`, `snap`, `arbiter` and more).
 Their accuracy, calibration and speed on our own GPUs and CPUs, with the raw data, are at
 [ollaya.dev/results](https://ollaya.dev/results).
 
